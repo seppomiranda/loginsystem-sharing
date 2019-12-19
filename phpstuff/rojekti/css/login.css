@@ -1,0 +1,56 @@
+body {
+    margin:0;
+    padding:0;
+}
+nav {
+    width: 100%;
+    padding:0.3em;
+    text-align: center;
+}
+nav img {
+    height: 150px;
+}
+form {
+    margin:auto;
+    text-align: center;
+    width: 300px;
+    padding:3em;
+    border: 1px solid #d0d0d0;
+}
+form input {
+    padding: 0.5em;
+    font-size: 1em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    border: 1px solid #999;
+}
+.button {
+    border: 1px solid green;
+    color: green;
+    background: none;
+    width: 100px;
+    border-radius: 1em;
+    padding: 0.7em;
+    cursor: pointer;
+    font-weight: 900;
+}
+#loginbtn {
+    color: green;
+}
+#signupbtn {
+    color: #555;
+    border: 1px solid #555;
+    text-decoration: none;
+    padding: 0.5em;
+    margin-right: 0.4em;
+}
+.error {
+    color: red;
+    margin:0;
+    margin-bottom:10px;
+}
+.pass {
+    color: green;
+    margin:0;
+    margin-bottom:10px;
+}

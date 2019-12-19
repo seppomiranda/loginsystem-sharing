@@ -1,0 +1,186 @@
+/* NAVin css */
+body {
+    margin:0;
+    padding:0;
+    background-color: #fbfbfb;
+}
+nav {
+    width: 100%;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav label {
+    padding: 40px 0 21px 0;
+    font-size: 2em;
+    cursor: pointer;
+}
+nav img {
+    height: 100px;
+}
+.hamburger {
+    float: right;
+    padding: 10px;
+    margin: 20px 5px 0 0;
+    cursor: pointer;;
+}
+.column {
+    float:left;
+}
+#nav {
+    border-bottom: 1px solid #d0d0d0;
+    background-color: #fff;
+}
+#nav::after {
+    content: "";
+    clear:both;
+    display:table;
+}
+#links {
+    background-color: #333;
+    font-size: 1.3em;
+    display: none;
+}
+nav li {
+    list-style: none;
+    width:100%;
+    border: 1px dotted #222;
+}
+nav ul {
+    text-align: center;
+    padding:0;
+    margin:0;
+    width:100%;
+}
+#links a {
+    color: #fbfbfb;
+    display: block;
+    width: 100%;
+    padding: 8px;
+}
+#links button {
+    color: #fbfbfb;
+    background-color: #333;
+    font-size: 0.9em;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+#links button:hover {
+    background-color: #fbfbfb;
+    color: #333;
+}
+#links a:hover {
+    background-color: #f0f0f0;
+    color: #222;
+}
+@media only screen and (min-width: 800px){
+    #links {
+        display: flex;
+        background-color: #fff;
+        width: auto;
+    }
+    #links a {
+        color: #222;
+        margin: 0;
+        padding: 13px;
+    }
+    #links button {
+        margin: 3px 0 0 0;
+    }
+    #links button:hover {
+        border: 1px solid #333;
+        padding: 7px;
+    }
+    #nav {
+        border-bottom: none;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 420px;
+    }
+    nav li {
+        border: none;
+        margin: 40px 0 0 0;
+    }
+    .hamburger {
+        display: none;
+    }
+    nav {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        background-color: #fff;
+        border-bottom: 1px solid #d0d0d0;
+    }
+    nav li {
+        width: auto;
+    }
+}
+/* FOOTERin css */
+footer {
+    background-color:#e0e0e0;
+    width: 100%; 
+    bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:2em;
+} footer img {
+    width: 1em;
+}
+footer ul {
+    text-decoration: none;
+    list-style: none;
+    margin: 8px 0;
+}
+footer a {
+    text-decoration: none;
+    color: #3F5060;
+}
+footer a:hover {
+    text-decoration: none;
+    color: #5F7992;
+}
+footer li {
+    padding: 0.3em;
+}
+footer h4 {
+    padding-left: 1em;
+    margin: 9px 0;
+}
+#rights {
+    width: 100%;
+    text-align: center;
+    padding-bottom:2em;
+}
+#somet {
+    padding: 1em 0em;
+    width: 230px;
+    padding: 0 2em;
+}
+#yhteystiedot {
+    padding: 1em 0em;
+    width: 230px;
+    padding: 0 2em;
+}
+@media only screen and (min-width: 600px){
+    #rights {
+        padding-top: 1.5em;
+    }
+    #footerflex {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #somet {
+        margin:0;
+    }
+    #yhteystiedot {
+        margin:0;
+    }
+}
